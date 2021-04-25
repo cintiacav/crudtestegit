@@ -1,0 +1,25 @@
+import express from 'express';
+import mongoose from 'mongoose';
+import { studentRouter } from './routes/studentRouter.js';
+import dotenv from 'dotenv';
+dotenv.config();
+
+const DBNAME = `${process.env.USERDB}://localhost/grades`;
+//conectar ao mongo DB
+(async () => {
+  try {
+    await mongoose.connect(DBNAME, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    console.log('Conectado a base:' + DBNAME);
+  } catch (err) {
+    console.log('Erro ao conectar a base:' + err);
+  }
+})(); //acho que se auto chama
+
+const app = express();
+app.use(express.json());
+app.use(studentRouter);
+
+app.listen(process.env.PORT, () => console.log('Api iniciada!'));
