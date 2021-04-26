@@ -8,7 +8,7 @@ studentRouter.post('/student', async (req, res) => {
     const student = new studentModel(req.body);
     await student.save();
 
-    res.send('Created!' + student);
+    res.send(student);
   } catch (error) {
     res.status(500).send(error);
   }
@@ -17,7 +17,7 @@ studentRouter.post('/student', async (req, res) => {
 studentRouter.get('/student', async (req, res) => {
   try {
     const student = await studentModel.find({}); //findAll
-    res.send('Retrieved!' + JSON.stringify(student));
+    res.send(student);
   } catch (error) {
     res.status(500).send(error);
   }
@@ -34,7 +34,7 @@ studentRouter.patch('/student/:id', async (req, res) => {
         new: true,
       }
     );
-    res.send('Patched:' + student);
+    res.send(student);
   } catch (error) {
     res.status(500).send(error);
   }
@@ -51,7 +51,7 @@ studentRouter.put('/student/:id', async (req, res) => {
         new: true,
       }
     );
-    res.send('Patched:' + student);
+    res.send(student);
   } catch (error) {
     res.status(500).send(error);
   }
@@ -68,7 +68,7 @@ studentRouter.patch('/student/:id', async (req, res) => {
         new: true,
       }
     );
-    res.send('Patch:' + student);
+    res.send(student);
   } catch (error) {
     res.status(500).send(error);
   }
