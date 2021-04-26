@@ -4,7 +4,7 @@ import { studentRouter } from './routes/studentRouter.js';
 import dotenv from 'dotenv';
 dotenv.config();
 
-const DBNAME = `${process.env.USERDB}://localhost/grades`;
+const DBNAME = `mongodb+srv://${process.env.USERDB}:${process.env.PWDDB}@cluster0.xtyga.mongodb.net/grades`;
 //conectar ao mongo DB
 (async () => {
   try {

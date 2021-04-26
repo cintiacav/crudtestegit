@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "607b4420feb11d3bf89d8578"
+  },
+  "name": "Dumbo",
+  "subject": "Mongodb",
+  "type": "Trabalho prático",
+  "value": 30,
+  "lastModified": {
+    "$date": "2021-04-17T21:06:04.283Z"
+  }
+},{
+  "_id": {
+    "$oid": "607b49a2feb11d3bf89d857d"
+  },
+  "name": "Dumbo",
+  "subject": "Mongodb",
+  "type": "Trabalho prático",
+  "value": 30,
+  "lastModified": {
+    "$date": "2021-04-17T21:06:04.283Z"
+  }
+},{
+  "_id": {
+    "$oid": "607b49a2feb11d3bf89d857e"
+  },
+  "name": "Cintia",
+  "subject": "React",
+  "type": "Desafio",
+  "value": 40,
+  "lastModified": {
+    "$date": "2021-04-17T21:06:04.283Z"
+  }
+},{
+  "_id": {
+    "$oid": "607b49a8feb11d3bf89d857f"
+  },
+  "name": "Dumbo",
+  "subject": "Trabalho prático",
+  "type": "Desafio",
+  "value": 20,
+  "lastModified": {
+    "$date": "2021-04-17T21:06:04.283Z"
+  }
+},{
+  "_id": {
+    "$oid": "607b49b0feb11d3bf89d8580"
+  },
+  "name": "Rodrigo",
+  "subject": "Node",
+  "type": "Desafio",
+  "value": 40,
+  "lastModified": {
+    "$date": "2021-04-17T21:06:04.283Z"
+  }
+},{
+  "_id": {
+    "$oid": "607b49b0feb11d3bf89d8581"
+  },
+  "name": "Cintia",
+  "subject": "Node",
+  "type": "Desafio",
+  "value": 40,
+  "lastModified": {
+    "$date": "2021-04-17T21:06:04.283Z"
+  }
+},{
+  "_id": {
+    "$oid": "607ca8d8dde0ce41e6378f32"
+  },
+  "name": "Rodrigo",
+  "subject": "Mongodb",
+  "type": "Trabalho prático",
+  "value": 35,
+  "timestamp": {
+    "$date": "2021-04-18T21:47:04.249Z"
+  }
+},{
+  "_id": {
+    "$oid": "607ca8d8dde0ce41e6378f33"
+  },
+  "name": "Cintia",
+  "subject": "Javascript",
+  "type": "Desafio",
+  "value": 37,
+  "timestamp": {
+    "$date": "2021-04-18T21:47:04.249Z"
+  }
+},{
+  "_id": {
+    "$oid": "607ca903dde0ce41e6378f34"
+  },
+  "name": "Rodrigo",
+  "subject": "Mongodb",
+  "type": "Trabalho prático",
+  "value": 35,
+  "timestamp": {
+    "$date": "2021-04-18T21:47:47.425Z"
+  }
+},{
+  "_id": {
+    "$oid": "607ca903dde0ce41e6378f35"
+  },
+  "name": "Cintia",
+  "subject": "Javascript",
+  "type": "Desafio",
+  "value": 37,
+  "timestamp": {
+    "$date": "2021-04-18T21:47:47.425Z"
+  }
+},{
+  "_id": {
+    "$oid": "607ccc840bfd003324f11754"
+  },
+  "lastModified": {
+    "$date": "2021-04-19T00:19:16.722Z"
+  },
+  "name": "Cintia",
+  "subject": "MongoDB",
+  "type": "Desafio",
+  "value": 22,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "607ccd57419d2e1f885a1e51"
+  },
+  "lastModified": {
+    "$date": "2021-04-19T00:22:47.742Z"
+  },
+  "name": "Cintia",
+  "subject": "MongoDB",
+  "type": "Desafio",
+  "value": 22,
+  "__v": 0
+}]
